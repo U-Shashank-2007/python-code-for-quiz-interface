@@ -1,0 +1,10 @@
+/* Minimal styles to keep UI readable */
+body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; }
+.container { max-width: 900px; margin: 20px auto; padding: 10px; }
+.header { display:flex; justify-content:space-between; align-items:center; padding:10px 0; }
+.card{ border:1px solid #ddd; padding:12px; border-radius:8px; margin-bottom:12px; }
+.button{ padding:8px 12px; border:none; border-radius:6px; cursor:pointer; }
+.btn-primary{ background:#2563eb; color:white }
+.btn-ghost{ background:#eee }
+.question{ margin:8px 0 }
+.timer{ font-weight:600 }
